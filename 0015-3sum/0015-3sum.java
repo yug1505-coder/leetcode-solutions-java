@@ -13,6 +13,7 @@ class Solution {
             while (left < right) {
                  if((nums[i]+nums[left]+nums[right])==0){
                     ans.add(Arrays.asList(nums[i],nums[left],nums[right]));
+                    //these two while loops below to skip duplicates for the left and right pointers after finding a match.
                     while(left<right && nums[left]==nums[left+1]){
                         left++;
                     }
