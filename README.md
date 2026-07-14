@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0283-move-zeroes) |
 | [0977-squares-of-a-sorted-array](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0344-reverse-string) |
 | [0977-squares-of-a-sorted-array](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0977-squares-of-a-sorted-array) |
@@ -33,4 +35,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0344-reverse-string) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
