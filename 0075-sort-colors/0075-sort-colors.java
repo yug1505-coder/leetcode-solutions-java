@@ -1,27 +1,29 @@
 class Solution {
     public void sortColors(int[] nums) {
         int n = nums.length;
-        int low = 0; 
-        int mid = 0; //array scan pointer
-        int high = n-1;
-        while(mid<=high){
-            if(nums[mid]==0){
-                int temp = nums[mid];
-                nums[mid] = nums[low];
-                nums[low] = temp;
+        int low = 0;
+        int k = 0; //scanning pointer
+        int high =  n-1;
+        while(k<=high){ // equal is considered bcz we dont which element high pointer is holding so we have to consider that case also.
+
+            if(nums[k]==0){
+                int temp  = nums[low];
+                nums[low] = nums[k];
+                nums[k] = temp;
                 low++;
-                mid++;
+                k++;
             }
-            else if(nums[mid]==1){
-                mid++;
+            else if(nums[k]==1){
+                k++;
             }
-            else{ //nums[mid]==2
-            int temp = nums[mid];
-            nums[mid] = nums[high];
-            nums[high]= temp;
+            else{ //nums[k] == 2 case
+            int temp = nums[high];
+            nums[high] = nums[k];
+            nums[k] = temp;
             high--;
             }
         }
+
         
     }
 }
