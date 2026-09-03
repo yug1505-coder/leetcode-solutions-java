@@ -15,3 +15,5 @@ class Solution {
    }
     }
 }
+// Time Complexity: O(n) — i array ko exactly once traverse karta hai. k bhi maximum n times move karta hai, so overall linear.
+// Space Complexity: O(1) — sirf i, k, temp jaise constant extra variables use ho rahe hain; koi extra array/data structure nahi.
