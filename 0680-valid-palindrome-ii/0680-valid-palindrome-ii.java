@@ -1,24 +1,23 @@
 class Solution {
     public boolean validPalindrome(String s) {
-        char[] arr = s.toCharArray();
-        int left = 0, right = arr.length-1;
+        int left = 0, right = s.length()-1;
         while(left<right){
-            if(arr[left]==arr[right]){
+            if(s.charAt(left)==s.charAt(right)){
                 left++;
                 right--;
             }
             else{
                 //either left pointer will move or right will move 
-                return checkPalindrome(arr,left+1,right) || 
-                checkPalindrome(arr,left,right-1);
+                return checkPalindrome(s,left+1,right) || 
+                checkPalindrome(s,left,right-1);
             }
         }
         return true;
         
     }
-    public boolean checkPalindrome(char[] arr, int left, int right){
+    public boolean checkPalindrome(String s, int left, int right){
         while(left<right){
-            if(arr[left]!=arr[right]){
+            if(s.charAt(left)!=s.charAt(right)){
                 return false;
             }
             else{
@@ -30,4 +29,7 @@ class Solution {
     }
 }
 // Time: O(n) — first pass + at most two helper checks, O(n)
-// Space: O(n) because toCharArray() creates a char array.
+// O(n) + O(n) + O(n) = O(3n)
+// Big-O mein constant 3 ignore
+// O(3n) → O(n) 
+// Space: O(1) because no extra char array.
