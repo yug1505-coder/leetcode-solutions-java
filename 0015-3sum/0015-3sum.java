@@ -1,37 +1,43 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
-        //empty array list created to store final ans
         List<List<Integer>> ans = new ArrayList<>();
         Arrays.sort(nums);
-        for (int i = 0; i < n - 2; i++) { //loop till n-2 to avoid index out of range
-            if (i > 0 && nums[i] == nums[i - 1]) { //i>0 bcz index st from 0
+        for(int i=0;i<n-2; i++){
+            if(i>0 && nums[i]==nums[i-1]){
                 continue;
             }
-            int left = i + 1;
-            int right = n - 1;
-            while (left < right) {
-                 if((nums[i]+nums[left]+nums[right])==0){
+            int left = i+1;
+            int right = n-1;
+            while(left<right){
+                int sum = nums[i]+nums[left]+nums[right];
+                if(sum==0){
                     ans.add(Arrays.asList(nums[i],nums[left],nums[right]));
-                    //these two while loops below to skip duplicates for the left and right pointers after finding a match.
-                    while(left<right && nums[left]==nums[left+1]){
+                    left++;
+                    right--;
+                    while(left<right && nums[left]==nums[left-1]){
                         left++;
                     }
-                    while(left<right && nums[right]==nums[right-1]){
+                    while(left<right && nums[right]==nums[right+1]){
                         right--;
                     }
-                    left++;
-                    right--;
                 }
-                else if((nums[i]+nums[left]+nums[right])>0){ //sum is already larger so right pointer will shift
-                    right--;
-                }
-                else{//here sum is smaller so left pointer will shift
+                
+                else if(sum<0){
                     left++;
                 }
-            }
-        }
-        return ans; 
+                else{
+                    right--;
+                }
 
+            }
+
+        }
+        return ans;
+        
     }
 }
+// Sorting → O(n log n), Two-pointer loops → O(n²)
+// ans output → O(k), Auxiliary space → O(1)
+
+// TC = O(n²), SC = O(k)
