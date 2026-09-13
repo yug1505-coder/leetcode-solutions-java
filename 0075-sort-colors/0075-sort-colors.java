@@ -19,6 +19,7 @@ class Solution {
                 nums[right]= nums[k];
                 nums[k] = temp;
                 right--;
+                //k++ not done bcz after right swapping , we dont know  current element which is placed at k so we need to check it..
             }
         }
 
