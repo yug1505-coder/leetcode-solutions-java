@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0075-sort-colors) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0283-move-zeroes) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -67,8 +69,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0042-trapping-rain-water) |
 ## Manacher
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0005-longest-palindromic-substring) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
