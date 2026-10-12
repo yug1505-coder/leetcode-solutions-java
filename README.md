@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0001-two-sum) |
+| [0389-find-the-difference](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0389-find-the-difference) |
 ## Two Pointers
 |  |
 | ------- |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0075-sort-colors) |
+| [0389-find-the-difference](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0389-find-the-difference) |
 | [0977-squares-of-a-sorted-array](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0977-squares-of-a-sorted-array) |
 ## String
 |  |
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0005-longest-palindromic-substring) |
 | [0125-valid-palindrome](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0344-reverse-string) |
+| [0389-find-the-difference](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0389-find-the-difference) |
 | [0680-valid-palindrome-ii](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0680-valid-palindrome-ii) |
 ## Binary Search
 |  |
@@ -82,4 +85,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0042-trapping-rain-water) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/yug1505-coder/leetcode-solutions-java/tree/master/0389-find-the-difference) |
 <!---LeetCode Topics End-->
